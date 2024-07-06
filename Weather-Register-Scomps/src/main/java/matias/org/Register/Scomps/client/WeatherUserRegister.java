@@ -12,9 +12,5 @@ public interface WeatherUserRegister {
     @PostMapping("/weatheruserrg/v1/user/create")
     UserResponse createNewUser(@RequestBody CreateUserRequest createUserRequest);
 
-    /*
-
-    teste esse comentario kkk
-     */
 
 }
